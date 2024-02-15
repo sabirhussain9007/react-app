@@ -1,0 +1,19 @@
+body {
+  background-color: rgb(102, 226, 102);
+}
+
+.covidData {
+  background-color: green;
+  width: 30%;
+  margin: auto;
+  margin-top: 15px;
+  border-radius: 6px;
+  padding: 10px;
+}
+
+.covidData__input {
+  padding: 10px;
+  margin: 20px;
+}
+
+/* Add more styles as needed */

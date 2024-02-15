@@ -1,0 +1,41 @@
+.main-container, .text-container, .signature-container {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  background: transparent;
+  text-size-adjust: 100%;
+  vertical-align: baseline;
+  background-position: 50% center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.main-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 120px 80px 120px 10%;
+  background: linear-gradient(90deg, rgba(58, 80, 99, 0.85), rgb(58, 80, 99)),
+              url("https://www.elegantthemes.com/layouts/wp-content/uploads/2018/06/jess-watters-483666-unsplash.jpg");
+  mix-blend-mode: unset;
+}
+
+.text-container {
+  border-left: 8px solid rgb(51, 51, 51);
+  border-color: rgb(255, 156, 2);
+  font-family: Rubik, Helvetica, Arial, Lucida, sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 2;
+  color: rgb(255, 255, 255);
+  padding-left: 40px;
+}
+
+.signature-container {
+  font-family: Sacramento, handwriting;
+  font-size: 32px;
+  line-height: 2;
+  text-align: right;
+  color: rgb(255, 255, 255);
+}
