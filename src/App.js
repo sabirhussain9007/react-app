@@ -1,11 +1,11 @@
-import CovidData from './component/covid/covidData'
+import Slider from './component/slider/Slider'
 
 function App() {
   return (
     <div className="App">
     
     
-     <CovidData />
+     <Slider />
      
      
     </div>
