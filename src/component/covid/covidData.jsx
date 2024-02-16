@@ -36,7 +36,7 @@ function CovidData() {
 
   return (
     <div className="covidData">
-      <h1>COVID-19 Tracker App</h1>
+      <h1>COVID-19 New Tracker App</h1>
       <div className="covidData__input">
         <form onSubmit={handleSubmit}>
           <input
