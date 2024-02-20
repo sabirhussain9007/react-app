@@ -1,0 +1,38 @@
+.fieldset {
+  font-size: x-small;
+  font-weight: bold;
+  font: 700 10px "Times New Roman";
+}
+
+.table {
+  border: 1px solid rgb(255, 106, 0);
+  width: 100%;
+}
+
+.label {
+  font-size: smaller;
+}
+
+.blue {
+  color: blue;
+  font-weight: bold;
+}
+
+.input {
+  width: 77px;
+}
+
+.button {
+  font-size: smaller;
+}
+
+.table2 {
+  border: 1px solid rgb(0, 0, 255);
+  width: 100%;
+  background-color: lightseagreen;
+}
+
+.label2 {
+  color: white;
+  font-weight: bold;
+}

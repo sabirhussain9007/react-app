@@ -1,15 +1,14 @@
-import Slider from './component/slider/Slider'
+// App.js
 
-function App() {
-  return (
-    <div className="App">
-    
-    
-     <Slider />
-     
-     
-    </div>
-  );
+import React from 'react';
+import Login from './component/login/Login';
+
+const App = () => {
+  return(
+    <Login />
+    )
+  
 }
-
+  
+    
 export default App;
