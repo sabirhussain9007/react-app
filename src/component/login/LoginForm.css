@@ -1,0 +1,259 @@
+/* LoginForm.css */
+
+.limiter {
+  padding: 0px;
+  box-sizing: border-box;
+  margin: 0px auto;
+  width: 100%;
+}
+
+.container-login100 {
+  margin: 0px;
+  box-sizing: border-box;
+  padding: 15px;
+  background-repeat: repeat;
+  background-position: center center;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background-size: 100% auto;
+  position: relative;
+  z-index: 1;
+  background-image: url("./PBL-logo.png");
+ 
+}
+
+.wrap-login100 {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  padding-top: 30px;
+  padding-bottom: 50px;
+  border-radius: 10px;
+  overflow: hidden;
+  background: 0px 0px;
+  width: 390px;
+}
+
+.login100-form-title {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  padding-bottom: 41px;
+  font-family: Ubuntu-Bold;
+  font-size: 28px;
+  color: rgb(255, 255, 255);
+  line-height: 1.2;
+  text-align: center;
+  text-transform: uppercase;
+  display: block;
+}
+
+.login100-form {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  padding-top: 5px;
+  padding-bottom: 33px;
+  border-radius: 10px;
+  width: 100%;
+  background-color: transparent;
+}
+
+.wrap-input100 {
+  margin: 0px;
+  box-sizing: border-box;
+  border-bottom: 1px solid rgb(230, 230, 230);
+  padding: 29px 0px;
+  width: 100%;
+  position: relative;
+}
+
+.input100 {
+  box-sizing: border-box;
+  touch-action: manipulation;
+  margin: 0px;
+  overflow: visible;
+  outline: none;
+  border: none;
+  background: 0px 0px;
+  padding: 0px 10px 0px 80px;
+  transition: all 0.4s ease 0s;
+  font-family: Ubuntu-Regular;
+  font-size: 20px;
+  color: rgb(85, 85, 85);
+  line-height: 1.2;
+  display: block;
+  width: 100%;
+  height: 50px;
+}
+
+.focus-input100 {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  left: 0px;
+  pointer-events: none;
+}
+
+.container-login100-form-btn {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  margin-top: 32px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.login100-form-btn {
+  box-sizing: border-box;
+  touch-action: manipulation;
+  margin: 0px;
+  overflow: visible;
+  appearance: button;
+  border: none;
+  padding: 0px 20px;
+  border-radius: 21px;
+  background: -webkit-linear-gradient(left, rgb(164, 69, 178), rgb(212, 24, 114), rgb(250, 66, 153));
+  transition: all 0.4s ease 0s;
+  font-family: Ubuntu-Bold;
+  font-size: 18px;
+  color: rgb(255, 255, 255);
+  line-height: 1.2;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 160px;
+  height: 42px;
+  position: relative;
+  z-index: 1;
+  outline: none;
+}
+
+/* Additional styling for hover and focus states */
+.login100-form-btn:hover {
+  background: linear-gradient(to right, rgb(164, 69, 178), rgb(212, 24, 114), rgb(250, 66, 153));
+}
+
+.input100:focus {
+  padding-left: 70px;
+}
+
+.input100:focus + .focus-input100 {
+  width: calc(100% - 70px);
+  height: 2px;
+  background: #6a7dfe;
+}
+
+/* Responsive styling */
+@media (max-width: 768px) {
+  .wrap-login100 {
+    width: 80%;
+  }
+}
+
+@media (max-width: 576px) {
+  .wrap-login100 {
+    width: 90%;
+  }
+}
+
+@media (max-width: 480px) {
+  .wrap-login100 {
+    width: 95%;
+  }
+}
+
+/* Additional styling for smaller screens */
+@media (max-width: 576px) {
+  .login100-form-title {
+    font-size: 24px;
+  }
+
+  .input100 {
+    font-size: 16px;
+    height: 40px;
+  }
+
+  .login100-form-btn {
+    font-size: 16px;
+    height: 38px;
+    min-width: 140px;
+    padding: 0px 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  .login100-form-title {
+    font-size: 20px;
+  }
+
+  .input100 {
+    font-size: 14px;
+    height: 36px;
+  }
+
+  .login100-form-btn {
+    font-size: 14px;
+    height: 34px;
+    min-width: 120px;
+    padding: 0px 10px;
+  }
+}
+
+/* Additional styling for even smaller screens */
+@media (max-width: 360px) {
+  .wrap-login100 {
+    width: 98%;
+  }
+
+  .login100-form-title {
+    font-size: 18px;
+  }
+
+  .input100 {
+    font-size: 12px;
+    height: 32px;
+  }
+
+  .login100-form-btn {
+    font-size: 12px;
+    height: 30px;
+    min-width: 100px;
+    padding: 0px 8px;
+  }
+}
+
+@media (max-width: 320px) {
+  .wrap-login100 {
+    width: 100%;
+  }
+
+  .login100-form-title {
+    font-size: 16px;
+    padding-bottom: 30px;
+  }
+
+  .input100 {
+    font-size: 11px;
+    height: 28px;
+  }
+
+  .login100-form-btn {
+    font-size: 11px;
+    height: 26px;
+    min-width: 90px;
+    padding: 0px 6px;
+  }
+}

@@ -1,11 +1,11 @@
 // App.js
 
 import React from 'react';
-import Login from './component/login/Login';
+import Carousel1 from './component/carousel/Carousel1';
 
 const App = () => {
   return(
-    <Login />
+    <Carousel1 />
     )
   
 }
